@@ -6,3 +6,6 @@ testNumberToPair(4, "white", "brown");
 testNumberToPair(25, "violet", "slate");
 testColorToNumber("black", "brown", 14);
 testColorToNumber("yellow", "green", 18);
+
+var toString=require("./toString");
+toString();
