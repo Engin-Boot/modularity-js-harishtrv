@@ -13,13 +13,14 @@ const MinorColors = [
   "slate"
 ]; 
 function toString(){
-  console.log("manual color coder");
   let pairNumber=1;
+  let str = '';
   for(let majorIndex = 0; majorIndex < MajorColors.length; majorIndex++) {
     for(let minorIndex = 0; minorIndex < MinorColors.length; minorIndex++) {
-      console.log(`${MajorColors[majorIndex]} ${MinorColors[minorIndex]} = ${pairNumber}`);
+      str = str + `${MajorColors[majorIndex]} ${MinorColors[minorIndex]} = ${pairNumber}\n`;
       pairNumber++;
     }
 }
+return str;
 }
 module.exports=toString;
