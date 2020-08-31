@@ -7,6 +7,7 @@ testNumberToPair(25, "violet", "slate");
 testColorToNumber("black", "brown", 14);
 testColorToNumber("yellow", "green", 18);
 
+
 console.log("\n color coding manual \n")
 var toString=require("./toString");
 console.log(toString());
